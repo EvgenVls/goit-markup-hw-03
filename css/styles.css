@@ -70,7 +70,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0;
+    border-bottom: 1px solid  #E7E9FC;
 }
 
 .nav {
@@ -85,6 +85,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    padding: 24px 0;
 }
 
 .logo-studio {
@@ -101,6 +102,10 @@ body {
 .nav-list {
     display: flex;
     column-gap: 40px;
+}
+
+.nav-list-item {
+    padding: 24px 0;
 }
 
 .nav-list-link {
@@ -160,6 +165,7 @@ body {
     color: #FFFFFF;
     height: 42px;
     width: 169px;
+    
 }
 
 .hero-button:hover,
@@ -250,12 +256,24 @@ body {
 
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
     
 }
 
 .portfolio-list-item {
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 2 * 24px) / 3);
+    
+}
+
+.portfolio-card-content {
+    padding-left: 16px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio-list-item-title {
@@ -269,11 +287,14 @@ body {
 .portfolio-list-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    margin-top: 8px;
 }
 /* ============ /portfolio ============ */
 
 /* ============ footer ============ */
-.footer {
+.footer .container {
     background: #2E2F42;
 }
 
