@@ -143,6 +143,12 @@ body {
     background-color: #2E2F42;
 }
 
+.hero-content {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
+}
+
 .hero-title {
     text-align: center;
     font-size: 56px;
@@ -151,9 +157,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     width: 496px;
-    padding-top: 188px;
-    padding-bottom: 48px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
    }
 
 .hero-button {
@@ -165,7 +169,10 @@ body {
     color: #FFFFFF;
     height: 42px;
     width: 169px;
-    
+}
+
+.cta {
+    padding-left: auto;
 }
 
 .hero-button:hover,
@@ -294,8 +301,14 @@ body {
 /* ============ /portfolio ============ */
 
 /* ============ footer ============ */
-.footer .container {
+.footer {
     background: #2E2F42;
+}
+
+.footer .container {
+    padding-top: 101.5px;
+    padding-left: 156px;
+    padding-bottom: 100px;
 }
 
 .logo-studio-light {
@@ -313,5 +326,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    margin-top: 17.5px;
 }
 /* ============ /footer ============ */
