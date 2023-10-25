@@ -90,6 +90,7 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -100,7 +101,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    margin-right: 76px;
 }
 
 .nav-list {
@@ -309,8 +309,14 @@ body {
     padding: 100px 0;
 }
 
-.logo-studio-light {
+.footer .logo-web {
     display: inline-block;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.logo-studio-light {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
